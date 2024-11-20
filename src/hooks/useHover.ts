@@ -3,14 +3,14 @@ import { useState, useRef, useEffect, MutableRefObject } from 'react';
 /**
  * useToggle - custom hook for switching state (boolean).
  *
- * @param {boolean} [initialValue=false] initial value.
- * @returns {[boolean, () => void]} Initial value and function to change it.
+ * @returns {[ref, boolean]} Ref for an element, boolean value to track if hovered.
  *
  * @example
- * const [isOn, toggle] = useToggle(false);
- * return <button onClick={toggle}>{isOn ? 'ON' : 'OFF'}</button>;
+ * const [hoverRef, isHovered] = useHover()
+ * return <div ref={hoverRef} style={{ backgroundColor: isHovered ? 'blue' : 'gray' }}>
+ *         Hover over me!
+ *     </div>
  */
-
 export function useHover<T extends HTMLElement>(): [MutableRefObject<T | null>, boolean] {
     const [hovered, setHovered] = useState(false);
     const ref = useRef<T | null>(null);
