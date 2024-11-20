@@ -1,6 +1,6 @@
 {
   "name": "hooks-mate",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
@@ -17,7 +17,8 @@
   "scripts": {
     "build": "rollup -c",
     "type-check": "tsc --noEmit",
-    "docs": "typedoc"
+    "docs": "typedoc",
+    "merge-docs": "node src/utils/mergeDocs.js"
   },
   "keywords": [],
   "author": "",
