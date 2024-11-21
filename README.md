@@ -2,24 +2,24 @@
 
 ## Documentation
 
-**hooks-mate v0.0.1** • **Docs**
+**react-hooks-mate v0.0.1** • **Docs**
 
 ***
 
-# hooks-mate v0.0.1
+# react-hooks-mate v0.0.1
 
 ## Functions
 
-- [useDebounce](docs/functions/useDebounce.md)
-- [useFetch](docs/functions/useFetch.md)
-- [useHover](docs/functions/useHover.md)
-- [useInfiniteScroll](docs/functions/useInfiniteScroll.md)
-- [useInterval](docs/functions/useInterval.md)
-- [useLocalStorage](docs/functions/useLocalStorage.md)
-- [useMediaQuery](docs/functions/useMediaQuery.md)
-- [useOnClickOutside](docs/functions/useOnClickOutside.md)
-- [usePrevious](docs/functions/usePrevious.md)
-- [useThrottle](docs/functions/useThrottle.md)
-- [useToggle](docs/functions/useToggle.md)
-- [useWebSocket](docs/functions/useWebSocket.md)
-- [useWindowSize](docs/functions/useWindowSize.md)
+- [useDebounce](https://github.com/guestDI/hooks-mate/blob/main/docs/functions/useDebounce.md)
+- [useFetch](https://github.com/guestDI/hooks-mate/blob/main/docs/functions/useFetch.md)
+- [useHover](https://github.com/guestDI/hooks-mate/blob/main/docs/functions/useHover.md)
+- [useInfiniteScroll](https://github.com/guestDI/hooks-mate/blob/main/docs/functions/useInfiniteScroll.md)
+- [useInterval](https://github.com/guestDI/hooks-mate/blob/main/docs/functions/useInterval.md)
+- [useLocalStorage](https://github.com/guestDI/hooks-mate/blob/main/docs/functions/useLocalStorage.md)
+- [useMediaQuery](https://github.com/guestDI/hooks-mate/blob/main/docs/functions/useMediaQuery.md)
+- [useOnClickOutside](https://github.com/guestDI/hooks-mate/blob/main/docs/functions/useOnClickOutside.md)
+- [usePrevious](https://github.com/guestDI/hooks-mate/blob/main/docs/functions/usePrevious.md)
+- [useThrottle](https://github.com/guestDI/hooks-mate/blob/main/docs/functions/useThrottle.md)
+- [useToggle](https://github.com/guestDI/hooks-mate/blob/main/docs/functions/useToggle.md)
+- [useWebSocket](https://github.com/guestDI/hooks-mate/blob/main/docs/functions/useWebSocket.md)
+- [useWindowSize](https://github.com/guestDI/hooks-mate/blob/main/docs/functions/useWindowSize.md)

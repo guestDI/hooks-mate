@@ -1,8 +1,8 @@
-**hooks-mate v0.0.1** • **Docs**
+**react-hooks-mate v0.0.1** • **Docs**
 
 ***
 
-# hooks-mate v0.0.1
+# react-hooks-mate v0.0.1
 
 ## Functions
 

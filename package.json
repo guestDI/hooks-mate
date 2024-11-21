@@ -1,5 +1,5 @@
 {
-  "name": "hooks-mate",
+  "name": "react-hooks-mate",
   "version": "0.0.1",
   "type": "module",
   "main": "./dist/index.js",

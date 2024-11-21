@@ -1,17 +1,16 @@
 import fs from 'fs/promises';
 import path from 'path';
 
-function adjustLinks(content, basePath) {
+function adjustLinks(content, baseUrl) {
     return content.replace(/\[(.*?)\]\((.*?)\)/g, (match, text, url) => {
         if (url.startsWith('functions/')) {
-            return `[${text}](${basePath}/${url})`;
+            return `[${text}](${baseUrl}/${url})`;
         }
         return match;
     });
 }
 
-
-export async function mergeDocsWithLinks(readmePath, docsPath, outputPath, basePath) {
+export async function mergeDocsWithGitHubLinks(readmePath, docsPath, outputPath, githubBaseUrl) {
     try {
         if (outputPath) {
             await fs.writeFile(outputPath, '', 'utf8');
@@ -19,11 +18,11 @@ export async function mergeDocsWithLinks(readmePath, docsPath, outputPath, baseP
 
         const readmeContent = await fs.readFile(readmePath, 'utf8');
         const docsContent = await fs.readFile(docsPath, 'utf8');
-        const updatedDocsContent = adjustLinks(docsContent, basePath);
+        const updatedDocsContent = adjustLinks(docsContent, githubBaseUrl);
 
         const newContent = `${readmeContent}\n\n## Documentation\n\n${updatedDocsContent}`;
         await fs.writeFile(outputPath || readmePath, newContent, 'utf8');
-        console.log('Documentation successfully merged into README.md with updated links!');
+        console.log('Documentation successfully merged into README.md with updated GitHub links!');
     } catch (err) {
         console.error('Error merging documentation:', err.message);
     }
@@ -33,6 +32,6 @@ const projectPath = process.cwd();
 const readmePath = path.resolve(projectPath, 'README.md');
 const docsPath = path.resolve(projectPath, 'docs/README.md');
 const outputPath = readmePath;
-const basePath = 'docs';
+const githubBaseUrl = 'https://github.com/guestDI/hooks-mate/blob/main/docs';
 
-mergeDocsWithLinks(readmePath, docsPath, outputPath, basePath);
+mergeDocsWithGitHubLinks(readmePath, docsPath, outputPath, githubBaseUrl);

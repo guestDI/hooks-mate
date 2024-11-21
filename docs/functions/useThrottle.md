@@ -1,8 +1,8 @@
-[**hooks-mate v0.0.1**](../README.md) • **Docs**
+[**react-hooks-mate v0.0.1**](../README.md) • **Docs**
 
 ***
 
-[hooks-mate v0.0.1](../README.md) / useThrottle
+[react-hooks-mate v0.0.1](../README.md) / useThrottle
 
 # Function: useThrottle()
 
@@ -61,4 +61,4 @@ function ThrottleExample() {
 
 ## Defined in
 
-[useThrottle.ts:33](https://github.com/guestDI/hooks-mate/blob/350846f7dadcea6b0b5163ff1bb8b09e3085b88f/src/hooks/useThrottle.ts#L33)
+[useThrottle.ts:33](https://github.com/guestDI/hooks-mate/blob/0ad1be308e3346f5183d8e1751c6475fdf60889b/src/hooks/useThrottle.ts#L33)
