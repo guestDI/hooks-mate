@@ -29,7 +29,6 @@ export async function mergeDocsWithLinks(readmePath, docsPath, outputPath, baseP
     }
 }
 
-// Пример использования
 const projectPath = process.cwd();
 const readmePath = path.resolve(projectPath, 'README.md');
 const docsPath = path.resolve(projectPath, 'docs/README.md');

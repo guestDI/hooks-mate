@@ -4,10 +4,10 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch:
 
 jobs:
   generate-docs:
+    if: ${{ github.event_name == 'workflow_dispatch' }} # Only runs manually
     runs-on: ubuntu-latest
 
     steps:
@@ -22,11 +22,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Generate docs
-        run: npm run docs
-
-      - name: Update README
-        run: node utils/merge-docs.js
+      - name: Generate docs and Update README
+        run: npm run generate-readme
 
       - name: Configure git
         run: |
