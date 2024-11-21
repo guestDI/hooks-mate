@@ -18,7 +18,8 @@
     "build": "rollup -c",
     "type-check": "tsc --noEmit",
     "docs": "typedoc",
-    "merge-docs": "node src/utils/mergeDocs.js"
+    "merge-docs": "node src/utils/mergeDocs.js",
+    "generate-readme": "npm run docs && npm run merge-docs"
   },
   "keywords": [],
   "author": "",

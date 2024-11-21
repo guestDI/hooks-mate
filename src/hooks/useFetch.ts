@@ -1,5 +1,12 @@
 import { useState, useEffect } from 'react';
 
+/**
+ *
+ * @param url
+ * @returns { data, loading, error } - fetched data, loading state and error text
+ * @example
+ * const { data, loading, error } = useFetch('https://jsonplaceholder.typicode.com/todos/1');
+ */
 export function useFetch<T>(url: string): { data: T | null; loading: boolean; error: Error | null } {
     const [data, setData] = useState<T | null>(null);
     const [loading, setLoading] = useState(true);

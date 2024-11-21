@@ -1,16 +1,4 @@
-import { useState, useEffect, useRef, useCallback } from 'react';
-
-interface UseInfiniteScrollOptions {
-    threshold?: number;
-    hasMore?: boolean;
-}
-
-interface UseInfiniteScrollReturn<T> {
-    data: T[];
-    loading: boolean;
-    error: Error | null;
-    observerRef: React.RefObject<HTMLDivElement>;
-}
+import {useState, useEffect, useRef, useCallback, RefObject} from 'react';
 
 /**
  * useInfiniteScroll - custom hook for handling infinite scroll while fetching data.
@@ -46,8 +34,19 @@ interface UseInfiniteScrollReturn<T> {
  *     );
  * };
  *
- * export default InfiniteScrollComponent;
  */
+
+interface UseInfiniteScrollOptions {
+    threshold?: number;
+    hasMore?: boolean;
+}
+
+interface UseInfiniteScrollReturn<T> {
+    data: T[];
+    loading: boolean;
+    error: Error | null;
+    observerRef: RefObject<HTMLDivElement>;
+}
 
 export function useInfiniteScroll<T>(
     fetchData: () => Promise<T[]>,
