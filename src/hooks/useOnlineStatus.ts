@@ -1,0 +1,30 @@
+import { useState, useEffect } from 'react';
+
+/**
+ * @return {boolean} - boolean value indicated if online
+ * @example
+ * function OnlineStatusIndicator() {
+ *     const isOnline = useOnlineStatus();
+ *
+ *     return <div>{isOnline ? 'You are online!' : 'You are offline!'}</div>;
+ * }
+ */
+
+export function useOnlineStatus(): boolean {
+    const [isOnline, setIsOnline] = useState<boolean>(navigator.onLine);
+
+    useEffect(() => {
+        const handleOnline = () => setIsOnline(true);
+        const handleOffline = () => setIsOnline(false);
+
+        window.addEventListener('online', handleOnline);
+        window.addEventListener('offline', handleOffline);
+
+        return () => {
+            window.removeEventListener('online', handleOnline);
+            window.removeEventListener('offline', handleOffline);
+        };
+    }, []);
+
+    return isOnline;
+}

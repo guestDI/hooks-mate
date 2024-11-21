@@ -2,11 +2,20 @@
 
 ## Documentation
 
-**react-hooks-mate v0.0.1** • **Docs**
+**react-hooks-mate** • **Docs**
 
 ***
 
-# react-hooks-mate v0.0.1
+# react-hooks-mate v0.1.0
+
+## Functions
+
+Added hooks
+- [useClipboard](https://github.com/guestDI/hooks-mate/blob/main/docs/functions/useClipboard.md)
+- [useIdle](https://github.com/guestDI/hooks-mate/blob/main/docs/functions/useIdle.md)
+- [useOnlineStatus](https://github.com/guestDI/hooks-mate/blob/main/docs/functions/useOnlineStatus.md)
+
+# react-hooks-mate v0.0.2
 
 ## Functions
 

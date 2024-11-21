@@ -11,3 +11,6 @@ export { useMediaQuery } from "./hooks/useMediaQuery";
 export { useWebSocket } from "./hooks/useWebsocket";
 export { useInfiniteScroll } from "./hooks/useInfiniteScroll";
 export { useWindowSize } from "./hooks/useWindowSize";
+export { useOnlineStatus } from "./hooks/useOnlineStatus";
+export { useIdle } from "./hooks/useIdle";
+export { useClipboard } from "./hooks/useClipboard";
