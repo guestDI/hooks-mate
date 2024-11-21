@@ -1,6 +1,6 @@
 {
   "name": "react-hooks-mate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
@@ -21,10 +21,11 @@
     "merge-docs": "node src/utils/mergeDocs.js",
     "generate-readme": "npm run docs && npm run merge-docs"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": ["react", "react-hooks"],
+  "author": "Dzmitry Ihnatovich",
+  "repository": "https://github.com/guestDI/hooks-mate",
+  "license": "MIT",
+  "description": "10 useful custom react hooks",
   "types": "./dist/index.d.ts",
   "peerDependencies": {
     "react": "^18.3.1",
