@@ -4,7 +4,7 @@ import { useRef, useEffect } from 'react';
  * useToggle - custom hook for switching state (boolean).
  *
  * @param value initial value.
- * @returns previous value.
+ * @returns {value} previous value.
  *
  * @example
  * const previousCount = usePrevious(count);

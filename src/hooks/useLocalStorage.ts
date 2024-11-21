@@ -1,5 +1,13 @@
 import { useState } from 'react';
 
+/**
+ * @param key
+ * @param initialValue
+ * @returns {[value, () => void]} Stored value and function to change it.
+ *
+ * @example
+ *     const [name, setName] = useLocalStorage('name', 'Guest');
+ */
 export function useLocalStorage<T>(key: string, initialValue: T): [T, (value: T) => void] {
     const [storedValue, setStoredValue] = useState<T>(() => {
         try {
