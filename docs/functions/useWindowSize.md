@@ -1,8 +1,8 @@
-[**react-hooks-mate v0.1.0**](../README.md) • **Docs**
+[**react-hooks-mate v0.2.0**](../README.md) • **Docs**
 
 ***
 
-[react-hooks-mate v0.1.0](../README.md) / useWindowSize
+[react-hooks-mate v0.2.0](../README.md) / useWindowSize
 
 # Function: useWindowSize()
 
@@ -46,4 +46,4 @@ function ResponsiveComponent() {
 
 ## Defined in
 
-[useWindowSize.ts:25](https://github.com/guestDI/hooks-mate/blob/7d47908a449d58c331b7bd1cdadbbed307af5ba7/src/hooks/useWindowSize.ts#L25)
+[useWindowSize.ts:25](https://github.com/guestDI/hooks-mate/blob/7fcffaab145279ba879492f8d016e618100679c0/src/hooks/useWindowSize.ts#L25)

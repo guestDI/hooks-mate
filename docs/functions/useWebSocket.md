@@ -1,8 +1,8 @@
-[**react-hooks-mate v0.1.0**](../README.md) • **Docs**
+[**react-hooks-mate v0.2.0**](../README.md) • **Docs**
 
 ***
 
-[react-hooks-mate v0.1.0](../README.md) / useWebSocket
+[react-hooks-mate v0.2.0](../README.md) / useWebSocket
 
 # Function: useWebSocket()
 
@@ -80,4 +80,4 @@ function WebSocketExample() {
 
 ## Defined in
 
-[useWebsocket.ts:54](https://github.com/guestDI/hooks-mate/blob/7d47908a449d58c331b7bd1cdadbbed307af5ba7/src/hooks/useWebsocket.ts#L54)
+[useWebsocket.ts:54](https://github.com/guestDI/hooks-mate/blob/7fcffaab145279ba879492f8d016e618100679c0/src/hooks/useWebsocket.ts#L54)

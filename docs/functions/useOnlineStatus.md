@@ -1,8 +1,8 @@
-[**react-hooks-mate v0.1.0**](../README.md) • **Docs**
+[**react-hooks-mate v0.2.0**](../README.md) • **Docs**
 
 ***
 
-[react-hooks-mate v0.1.0](../README.md) / useOnlineStatus
+[react-hooks-mate v0.2.0](../README.md) / useOnlineStatus
 
 # Function: useOnlineStatus()
 
@@ -26,4 +26,4 @@ function OnlineStatusIndicator() {
 
 ## Defined in
 
-[useOnlineStatus.ts:13](https://github.com/guestDI/hooks-mate/blob/7d47908a449d58c331b7bd1cdadbbed307af5ba7/src/hooks/useOnlineStatus.ts#L13)
+[useOnlineStatus.ts:13](https://github.com/guestDI/hooks-mate/blob/7fcffaab145279ba879492f8d016e618100679c0/src/hooks/useOnlineStatus.ts#L13)

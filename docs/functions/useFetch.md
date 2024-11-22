@@ -1,8 +1,8 @@
-[**react-hooks-mate v0.1.0**](../README.md) • **Docs**
+[**react-hooks-mate v0.2.0**](../README.md) • **Docs**
 
 ***
 
-[react-hooks-mate v0.1.0](../README.md) / useFetch
+[react-hooks-mate v0.2.0](../README.md) / useFetch
 
 # Function: useFetch()
 
@@ -42,4 +42,4 @@ const { data, loading, error } = useFetch('https://jsonplaceholder.typicode.com/
 
 ## Defined in
 
-[useFetch.ts:10](https://github.com/guestDI/hooks-mate/blob/7d47908a449d58c331b7bd1cdadbbed307af5ba7/src/hooks/useFetch.ts#L10)
+[useFetch.ts:10](https://github.com/guestDI/hooks-mate/blob/7fcffaab145279ba879492f8d016e618100679c0/src/hooks/useFetch.ts#L10)

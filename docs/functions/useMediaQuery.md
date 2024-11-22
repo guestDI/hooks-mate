@@ -1,8 +1,8 @@
-[**react-hooks-mate v0.1.0**](../README.md) • **Docs**
+[**react-hooks-mate v0.2.0**](../README.md) • **Docs**
 
 ***
 
-[react-hooks-mate v0.1.0](../README.md) / useMediaQuery
+[react-hooks-mate v0.2.0](../README.md) / useMediaQuery
 
 # Function: useMediaQuery()
 
@@ -35,4 +35,4 @@ function MediaQueryExample() {
 
 ## Defined in
 
-[useMediaQuery.ts:21](https://github.com/guestDI/hooks-mate/blob/7d47908a449d58c331b7bd1cdadbbed307af5ba7/src/hooks/useMediaQuery.ts#L21)
+[useMediaQuery.ts:21](https://github.com/guestDI/hooks-mate/blob/7fcffaab145279ba879492f8d016e618100679c0/src/hooks/useMediaQuery.ts#L21)

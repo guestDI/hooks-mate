@@ -1,8 +1,8 @@
-[**react-hooks-mate v0.1.0**](../README.md) • **Docs**
+[**react-hooks-mate v0.2.0**](../README.md) • **Docs**
 
 ***
 
-[react-hooks-mate v0.1.0](../README.md) / useClipboard
+[react-hooks-mate v0.2.0](../README.md) / useClipboard
 
 # Function: useClipboard()
 
@@ -42,4 +42,4 @@ function ClipboardDemo() {
 
 ## Defined in
 
-[useClipboard.ts:30](https://github.com/guestDI/hooks-mate/blob/7d47908a449d58c331b7bd1cdadbbed307af5ba7/src/hooks/useClipboard.ts#L30)
+[useClipboard.ts:30](https://github.com/guestDI/hooks-mate/blob/7fcffaab145279ba879492f8d016e618100679c0/src/hooks/useClipboard.ts#L30)
